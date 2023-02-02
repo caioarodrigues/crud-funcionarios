@@ -1,0 +1,56 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section fieldset{
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+    border-radius: 5px;
+    border: solid 3px white;
+    background-color: lightskyblue;
+}
+
+section fieldset legend{
+    color: whitesmoke;
+    background-color: lightseagreen;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-cadastro, .form-remover, .form-editar, .form-put{
+    display: flex;
+    justify-content: center;
+}
+
+.form-put{
+    display: none;
+}
+
+#btn{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: lightyellow;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+section fieldset input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: transparent;
+    outline: none;
+}
+
+section fieldset input:focus{
+    background-color: rgb(114, 174, 211);
+    border: 2px dashed black;
+}

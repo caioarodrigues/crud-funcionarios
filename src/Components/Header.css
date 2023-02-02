@@ -1,0 +1,35 @@
+.header{
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.form{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    width: fit-content;
+    background-color: lightsteelblue;
+    padding: 8px;
+}
+
+.btn{
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color:lightyellow;
+}
+
+#input{
+    border-radius: 5px;
+    border-color: transparent;
+    outline: none;
+
+    margin-inline-start: 2px;
+
+}
